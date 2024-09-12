@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق قائمة المهام</title>
+    <link rel="stylesheet" href="style.css"> <!-- ربط ملف CSS -->
+</head>
+<body>
+    <h1>قائمة المهام</h1>
+    <input type="text" id="taskInput" placeholder="أدخل المهمة">
+    <button onclick="addTask()">إضافة مهمة</button>
+    <ul id="taskList"></ul>
+    <button onclick="saveTasks()">حفظ المهام</button>
+    <button onclick="loadTasks()">تحميل المهام</button>
+
+    <script src="app.js"></script> <!-- ربط ملف JavaScript -->
+</body>
+</html>
